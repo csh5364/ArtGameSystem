@@ -4,12 +4,15 @@ let wait;
 let end;
 let time;
 
+function preload() {
+  wait = loadImage('wait.jpg');
+  end = loadImage('end.jpg');
+}
+
 function setup()
 {
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(windowWidth/2 - canvasWidth/2, 20);
-  wait = loadImage('wait.jpg');
-  end = loadImage('end.jpg');
   time = random(10,30);
   createCanvas(800,600);
 }
