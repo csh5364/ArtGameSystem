@@ -1,5 +1,7 @@
 let canvasWidth =800;
 let canvasHeight=600;
+let wait;
+let end;
 let time;
 
 function setup()
