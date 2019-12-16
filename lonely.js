@@ -1,9 +1,9 @@
 let canvasWidth =800;
 let canvasHeight=420;
-let wait_1;
-let wait_2;
-let end_1;
-let end_2;
+let image1;
+let image2;
+let image3;
+let image4;
 let time;
 
 function preload() {
