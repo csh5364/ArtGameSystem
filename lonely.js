@@ -13,6 +13,8 @@ function preload() {
   image2 = loadImage('2.png');
   image3 = loadImage('3.png');
   image4 = loadImage('4.png');
+
+  clock = loadSound("clock.mp3")
 }
 
 function setup()
@@ -20,9 +22,10 @@ function setup()
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(windowWidth/2 - canvasWidth/2, 20);
   //countdown = 10; //random(10, 60);
-  time = 30; //random(1, 5);
+  time = 25; //random(1, 5);
   //i = 1 //random(1,2);
   createCanvas(800,420);
+  clock.play();
 }
 
 function draw()
