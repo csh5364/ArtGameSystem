@@ -22,15 +22,16 @@ function setup()
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(windowWidth/2 - canvasWidth/2, 20);
   //countdown = 10; //random(10, 60);
-  time = 25; //random(1, 5);
+  time = 28; //random(1, 5);
   //i = 1 //random(1,2);
   createCanvas(800,420);
-  clock.play();
+
 }
 
 function draw()
 {
   background(255);
+  clock.play();
   textAlign(CENTER);
   textSize(50);
   text(int(time), width/2,height/2);
