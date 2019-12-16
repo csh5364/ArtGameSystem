@@ -25,13 +25,14 @@ function setup()
   time = 28; //random(1, 5);
   //i = 1 //random(1,2);
   createCanvas(800,420);
+  clock.play();
 
 }
 
 function draw()
 {
   background(255);
-  clock.play();
+
   textAlign(CENTER);
   textSize(50);
   text(int(time), width/2,height/2);
