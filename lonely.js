@@ -49,10 +49,10 @@ function draw()
   }
 
   if (time == 0) {
-    image(image4,0,0);
-    clock.stop();
+    image(image3,0,0);
+    //clock.stop();
   }
   else {
-    image(image2,0,0);
+    image(image1,0,0);
   }
 }
