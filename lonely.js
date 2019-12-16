@@ -1,8 +1,8 @@
 let canvasWidth =800;
-let canvasHeight=600;
+let canvasHeight=420;
 let wait;
 let end;
-int time;
+let time;
 
 function preload() {
   wait = loadImage('wait.jpg');
@@ -13,8 +13,8 @@ function setup()
 {
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(windowWidth/2 - canvasWidth/2, 20);
-  time = 5;//random(1, 5);
-  createCanvas(400,300);
+  time = random(1, 5);
+  createCanvas(800,420);
 }
 
 function draw()
